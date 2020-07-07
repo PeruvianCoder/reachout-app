@@ -1,2 +1,2 @@
 # reachout-app
-Social gathering app created to bring you closer to your community near you.
+Social gathering app created to bring you closer to the community near you.
