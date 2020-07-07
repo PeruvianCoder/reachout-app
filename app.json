@@ -4,6 +4,7 @@
     "slug": "reachout-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "entryPoint": "./src/index.tsx",
     "icon": "./src/assets/img/apple-icon.png",
     "splash": {
       "image": "./src/assets/img/logo.png",
