@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Text, View } from "react-native";
-import { GetUserFeed } from "./api/UserFeed";
+import GetUserFeed from "./../api/UserFeed";
 
 export default function Load(props) {
-  const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState(true);
+  const { isLoading, setLoading } = useState(true);
+  const { data, setData } = useState(true);
 
   useEffect(() => {
     GetUserFeed();

@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import ReachoutNavbar from "./components/ReachoutNavbar";
+import ReachoutNavbar from "./src/components/ReachoutNavbar";
+import UserCard from "./src/components/UserCard";
 
 export default function App() {
   // return (
@@ -12,7 +13,10 @@ export default function App() {
 
   return (
     <div className="app">
-      <ReachoutNavbar />
+      <View style={{ flex: 1 }}>
+        <ReachoutNavbar />
+        <UserCard />
+      </View>
     </div>
   );
 }

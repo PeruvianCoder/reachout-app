@@ -1,11 +1,7 @@
 import React from "react";
+import "./../assets/css/blk-design-system-react.css";
 import {
   Collapse,
-  UncontrolledCollapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   FormGroup,
   Form,
   Input,
@@ -18,7 +14,7 @@ import {
 } from "reactstrap";
 
 export default function ReachoutNavbar(props: any) {
-  const [currUser, logIn] = props;
+  const { currUser, logIn } = props;
   let button;
 
   if (currUser) {
@@ -32,10 +28,10 @@ export default function ReachoutNavbar(props: any) {
   }
 
   return (
-    <Navbar className="bg-primary" expand="lg">
+    <Navbar className="bg-info" expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand href="/presentation.html">Logo</NavbarBrand>
+          <NavbarBrand href="./../assets/img/apple-icon.png">Logo</NavbarBrand>
           <button
             aria-expanded={false}
             aria-label="Toggle navigation"

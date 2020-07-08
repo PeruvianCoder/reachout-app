@@ -1,6 +1,6 @@
 import React from "react";
 
-function GetUserFeed() {
+export default function GetUserFeed() {
   return fetch("TestPayload.json")
     .then((response) => response.json())
     .then((json) => {
