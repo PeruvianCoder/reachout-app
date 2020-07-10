@@ -12,6 +12,7 @@ import {
   Nav,
   Container,
 } from "reactstrap";
+import { Button } from "galio-framework";
 
 export default function ReachoutNavbar(props: any) {
   const { currUser, logIn } = props;
