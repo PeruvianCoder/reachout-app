@@ -4,9 +4,9 @@
     "name": "reachout-app",
     "slug": "reachout-app",
     "version": "1.0.0",
-    "icon": "./src/assets/img/apple-icon.png",
+    "icon": "./src/assets/images/icon.png",
     "splash": {
-      "image": "./src/assets/img/logo.png",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./src/assets/img/favicon.png"
+      "favicon": "./src/assets/images/ios.png"
     }
   }
 }

@@ -16,7 +16,22 @@ const AppStack = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={Feed} />
+      <Stack.Screen name="Menu" component={MenuStack} />
+    </Stack.Navigator>
+  );
+};
+
+const InterestsStack = () => {
+  return (
+    <Stack.Navigator>
       <Stack.Screen name="Interests" component={UserInterests} />
+    </Stack.Navigator>
+  );
+};
+
+const ProfileStack = () => {
+  return (
+    <Stack.Navigator>
       <Stack.Screen name="Profile" component={UserProfile} />
     </Stack.Navigator>
   );
@@ -73,3 +88,5 @@ const MenuStack = () => {
     </Drawer.Navigator>
   );
 };
+
+export default AppStack;
